@@ -1,0 +1,269 @@
+a{
+    color: #000;
+  }
+  body{
+    background-image: url('cover (2).jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #1a1817;
+    background-size: 100%;
+    backdrop-filter: brightness(0.5);
+    /* filter: blur(8px);
+    -webkit-filter: blur(3px); */
+  }
+ 
+  .form-class{
+    position: absolute;
+left: 89%;
+bottom: 1px;
+display: grid;
+border: double;
+float: right;
+top: 1px;
+margin-top: 8rem;
+  }
+  .form-class a{
+    color: aqua;
+    text-transform: uppercase;
+    -webkit-text-stroke: medium;
+    border-bottom: double;
+    text-align: center;
+  }
+  .form-class a:hover{
+    color: red;
+  }
+
+  
+.h1{
+border-bottom: groove;
+  height: -webkit-fill-available;
+  font-size: x-large;
+  color: gold;
+  font-family: -webkit-body;
+   }
+   #sign{
+       margin-left: 75%;
+       background-color: rgb(240, 182, 140);
+   }
+   .button{
+      margin-block: auto;
+      width: 90%;
+   }
+   /* .break{
+     display: flex;
+   } */
+   
+   .h3{
+       
+    text-align: center;
+    color: #ffc107;
+    text-decoration: underline;
+    /* -webkit-text-stroke-width: medium; */
+    text-underline-position: under;
+       
+   }
+   .cat{
+    background-color: black;
+  outline: inset;
+  font-family: cursive;
+   }
+   /* input{
+       margin-bottom: 5%;
+   } */
+   img{
+    width: 100%;
+  margin-top: -1%;
+      
+
+   }
+   .cot{
+     display: flex;
+   }
+   /*div{
+       display: flex;
+   }*/
+   .p{
+       size: 50%;
+      
+   }
+   .new-p{
+     color: aliceblue;
+     font-size: large;
+  background-color: black;
+  border-bottom: outset;
+  width: fit-content;
+  color: #ffc107;
+  /* -webkit-text-stroke-width: medium; */
+  width: -moz-fit-content;
+position: inherit;
+margin-top: -80px;
+   }
+  
+   .card{
+    position: inherit;
+background: border-box;
+color: aliceblue;
+border-block-color: inherit;
+border-block-width: initial;
+border: double;
+width: 30%;
+overflow: hidden;
+
+grid-template-columns: repeat(3, max-content);
+
+margin-top: -40px;
+margin-left: -11px;
+   }
+   .card-body{
+background-color: black;
+outline: inset;
+   }
+   form{
+    /* position: relative;
+  left: 20px; */
+   }
+   .container{
+    margin-top: -25%;
+  /* margin-left: 50%; */
+  padding-top: 25%;
+   }
+   .card-new{
+     color: aliceblue;
+   }
+   .card-newbody{
+     overflow: hidden;
+   }
+   .card-text{
+    text-decoration: underline;
+  font-size: smaller;
+  width: 100%;
+   }
+   .zoom {
+    border: 2px solid #fff;
+  width: 10%;
+  position: relative;
+  left: 30%;
+  margin-left: 5px;
+  height: fit-content;
+   }
+   .zoom:hover{
+     transform: scale(1.5);
+     display: block;
+   }
+  
+   
+   /* .fa-facebook{
+     color: aliceblue;
+   } */
+   /* .dropdown-menu{
+       display: none;
+       position: absolute;
+       background-color: #f0f0f0;
+       box-shadow: 2px 8px 16px 0px rgba(0,0,0,0.2);
+       z-index: 1;
+   }
+   .dropdown:hover .dropdown-menu{display: block; transition: all o.5s ease-in-out;}
+   .dropdown .dropdown-menu a:hover{background-color: #c9c7c7;} */
+
+.break{
+  position: inherit;
+  padding: 5rem 0;
+}
+.break-h1{
+  color: #fff;
+  text-align: center;
+  font-family: math;
+  font-weight: 600;
+  border-bottom: double;
+  border-color: #004d96;
+  color: #009678;
+  text-transform: uppercase;
+}
+.break-h1 span{
+  color: #e7c012;
+}
+.break-card{
+  position: inherit;
+  padding-top: 80px;
+}
+.break-cat{
+  text-transform: uppercase;
+font-weight: bolder;
+font-family: initial;
+color: gold;
+border-bottom: double;
+text-align: center;
+  
+}.break-title{
+  color: #fff;
+font: message-box;
+font-weight: inherit;
+
+margin-left: 1%;
+}
+.break-img{
+  margin-left: 25%;
+width: 50%;
+margin-top: 0px;
+}
+.break-des{
+  color: #fff;
+}
+.break-time{
+  float: right;
+  color: yellow;
+  font-size: medium;
+}
+.title{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'FontAwesome';
+  color: red;
+  border-bottom: double #0eef15;
+
+}
+.title span{
+  color: #0eef15;
+
+}
+.nat-card{
+  background: border-box;
+  color: aliceblue;
+  border-block-color: inherit;
+  border-block-width: initial;
+  border: double;
+  width: 30%;
+  overflow: hidden;
+  left: 1%;
+  display: inline-block;
+  margin-left: 10px;
+  grid-template-columns: repeat(3, max-content);
+
+}
+.nat-title{
+
+}
+.nat-image{
+
+}
+.nat-des{
+
+}
+#btn:hover{
+ background: #009678;
+ color: #fff;
+}
+
+.small{
+  width: 150px;
+  overflow: hidden;
+  padding: 5px;
+  position: inherit;
+  
+}
+.small-text{
+  width: fit-content;
+  color: #fff;
+  text-decoration-line: underline;
+}
+
